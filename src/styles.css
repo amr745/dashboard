@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');.App{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(241, 236, 236);
+    height: 460px;
+    /* display: grid; */
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+}
+.Sidebar {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    gap: 10px;
+    float: left;
+    height: 430px;
+}
+
+.topRow {
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 200px;
+    display: inline-flex;
+    /* float: right; */
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.WebsiteVistiors {
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* float: right; */
+    /* align-items: baseline; */
+    justify-content: flex-start;
+    /* align-content: center; */
+    height:190px;
+    width:auto;
+    /* margin:120px auto; */
+}
+
+/* .Reviews{
+    display: grid;
+} */
