@@ -2,7 +2,8 @@
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
-    background-color: rgb(241, 236, 236);
+    /* background-color: rgb(241, 236, 236); */
+    background-color: rgb(221, 221, 195);
     height: 460px;
     /* display: grid; */
     position: absolute;
@@ -10,11 +11,12 @@
     font-size: 9pt;
 }
 .Sidebar {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px;
     padding: 10px;
-    width: 100px;
-    background-color: lightgrey;
+    width: 125px;
+    background-color: rgb(57, 39, 75);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,22 +28,37 @@
 }
 
 .topRow {
-    background-color: lightgrey;
-    border: 1px solid black;
+    background-color: white;
+    /* border: 1px solid black; */
     margin: 5px;
     padding: 10px;
-    width: 100px;
-    height: 200px;
+    width: 125px;
+    height: 150px;
     display: inline-flex;
     /* float: right; */
     flex-direction: row;
     /* justify-content: flex-start; */
     /* align-items: center; */
     /* align-content: center; */
+    /* position: relative; */
+}
+
+.rev-img {
+    background-image: url('/public/images/stars.png');
+    height: 20px;
+    width: 115%;
+}
+
+.rat-img {
+    background-image: url('/public/images/stars.png');
+    height: 20px;
+    width: 70%;
 }
 .WebsiteVistiors {
-    background-color: lightgrey;
-    border: 1px solid black;
+    background-color: white;
+    background-color: rgb(57, 39, 75);
+    color: white;
+    /* border: 1px solid black; */
     margin: 5px;
     padding: 10px;
     display: flex;
@@ -50,9 +67,15 @@
     /* align-items: baseline; */
     justify-content: flex-start;
     /* align-content: center; */
-    height:190px;
-    width:auto;
+    height: 250px;
+    width: auto;
     /* margin:120px auto; */
+
+}
+
+.img-contain {
+    background-image: url('/public/images/graph.png');
+    height: 250px;
 }
 
 /* .Reviews{

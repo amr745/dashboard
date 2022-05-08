@@ -6,6 +6,7 @@ const AverageRating = (props) => {
         <div className="AverageRating">
             <h3>Average Rating</h3>
             <h1>4.6</h1>
+            <div className="rat-img"></div>
         </div>
         </div>
     )

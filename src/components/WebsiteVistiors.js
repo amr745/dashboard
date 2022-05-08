@@ -5,6 +5,7 @@ const WebsiteVistiors = (props) => {
         <div className="WebsiteVistiors">
             <h3>Website Visitors</h3>
             <h1>821</h1>
+            <div className="img-contain"></div>
         </div>
     )
 }
